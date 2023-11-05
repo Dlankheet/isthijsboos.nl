@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo {
+    width: 100px; /* aanpassen aan de grootte van je logo */
+    height: 100px; /* aanpassen aan de grootte van je logo */
+}
+
+.content {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+    font-family: Arial, sans-serif;
+}
+
+/* Extraatjes */
+body {
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Voor een leuke hover-effect */
+h1:hover {
+    color: blue;
+    transition: color 0.3s;
+}
